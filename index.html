@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Star Wars RPG</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <audio><source src="assets/sound/select.mp3"></audio>
+      <audio><source src="assets/sound/torpedo.mp3"></audio>
+      <audio><source src="assets/sound/explode.mp3"></audio>
+      <audio><source src="assets/sound/warning.mp3"></audio>
+      <audio><source src="assets/sound/error.mp3"></audio>
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="contain">
+      <section>
+        <h1 class="header">Star Wars RPG</h1>
+      </section>
+
+      <section class="stage goodSelection">
+
+        <div class="wrapper stage1" id="enterprise">
+          <div class="character pre">
+            <h3>Imperial Hammer</h3>
+            <img src="assets/images/imperial-hammer.jpg" alt="hammer"/>
+            <h3 class="health">150</h3>
+          </div>
+        </div>
+
+      <div class="wrapper stage1" id="borg" >
+        <div class="character pre">
+          <h3>Imperial Destroyer</h3>
+          <img src="assets/images/star-destroyer.png" alt="destroyer"/>
+          <h3 class="health">170</h3>
+        </div>
+      </div>
+
+      <div class="wrapper stage1" id="romulan">
+        <div class="character pre">
+          <h3>Alliance Battleship II</h3>
+          <img src="assets/images/alliance-battle-cruiser.jpg" alt="cruiser I" />
+          <h3 class="health">100</h3>
+        </div>
+      </div>
+
+      <div class="wrapper stage1" id="klingon">
+        <div class="character pre">
+          <h3>Alliance Battleship I</h3>
+          <img src="assets/images/valor-class_cruiser.png" alt="cruiser II" />
+          <h3 class="health">110</h3>
+        </div>
+
+      </div>
+
+        <h1 id="heroName">Choose Your Character</h1>
+      </section><br>
+
+      <section class="stage" id="badSelection">
+        <h1>Choose Your Opponent</h1>
+      </section><br>
+
+      <section class="stage fightSection">
+        <div class="button fire">
+          <p>Fire!</p>
+        </div>
+      </section><br>
+
+      <section class="stage" id="defender">
+        <h1 id="enemyName">Defender</h1>
+    </section>
+
+  <section>
+    <h1 id="message"></h1>
+  </section>
+
+  </div>
+</body>
+  <script type="text/javascript" src="assets/javascript/play.js"></script>
+</html>
